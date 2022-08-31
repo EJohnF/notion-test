@@ -3,9 +3,7 @@ name: "Notion backup"
 on:
   push:
     branches:
-      - master
-  schedule:
-    -   cron: "0 */4 * * *"
+      - main
 
 jobs:
   backup:
